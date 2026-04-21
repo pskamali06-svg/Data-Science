@@ -1,0 +1,62 @@
+operators in python :
+
+1. Arithmetic Operators
+These are used for common mathematical calculations. 
+
+   * Addition (+): Adds values. 5 + 2 = 7.
+   * Subtraction (-): Subtracts the right operand from the left. 5 - 2 = 3.
+   * Multiplication (*): Multiplies values. 5 * 2 = 10.
+   * Division (/): Divides and returns a float. 5 / 2 = 2.5.
+   * Floor Division (//): Returns the quotient as a whole number. 5 // 2 = 2.
+   * Modulus (%): Returns the remainder. 5 % 2 = 1.
+   * Exponentiation ()**: Raises to a power. 5 ** 2 = 25. 
+
+2. Comparison (Relational) Operators
+Used to compare two values, returning either True or False. 
+
+    * Equal (==): 5 == 5 is True.
+    * Not Equal (!=): 5 != 3 is True.
+    * Greater Than (>): 5 > 3 is True.
+    * Less Than (<): 5 < 3 is False.
+    * Greater than or equal to (>=): 5 >= 5 is True.
+    * Less than or equal to (<=): 5 <= 3 is False.
+
+3. Logical Operators
+Used to combine conditional statements. 
+
+    * and: Returns True if both statements are true. (5 > 3 and 3 > 1).
+    * or: Returns True if at least one statement is true. (5 > 3 or 3 < 1).
+    * not: Reverses the logical state. not(5 > 3) is False. 
+
+4. Assignment Operators
+Used to assign or update values of variables. 
+
+    Simple (=): x = 5.
+    Add and assign (+=): x += 3 (same as x = x + 3).
+    Subtract and assign (-=): x -= 2.
+    Multiply and assign (*=): x *= 4.
+    The Walrus Operator (:=): Assigns values to variables as part of a larger expression
+
+5. Bitwise Operators
+Used to perform operations on binary (bit) levels. 
+
+    AND (&): Sets each bit to 1 if both are 1. 5 & 3.
+    OR (|): Sets bit to 1 if one of two bits is 1. 5 | 3.
+    XOR (^): Sets bit to 1 if only one of two bits is 1. 5 ^ 3.
+    NOT (~): Inverts all bits. ~5.
+    Shift (<<, >>): Shifts bits left or right. 5 << 1 shifts binary 101 to 1010 (10). 
+
+6. Special Operators
+
+    Identity Operators: Check if two variables point to the same object in memory.
+        is: x is y.
+        is not: x is not y.
+    Membership Operators: Test if a value is present in a sequence (string, list, tuple, etc.).
+        in: 'a' in 'apple' is True.
+        not in: 'b' not in 'apple' is True
+
+7. Membership Operators Table:
+
+Operator 	Description                                        Example Expression
+in	     Returns True if the value exists in the object	                x in y
+not in  	Returns True if the value does not exist in the object   	x not in y

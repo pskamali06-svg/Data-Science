@@ -1,0 +1,27 @@
+Data types 
+Integer (int)
+Example: 5, -10
+
+2. Float (float
+Example: 3.5, -0.25
+
+3. String (str)
+Example: "Hello", "123"
+
+4. Boolean (bool)
+Example: True, False
+
+5. List (list)
+Example: [1, 2, 3], ["apple", "banana"]
+
+6. Tuple (tuple)
+Example: (1, 2, 3), ("a", "b")
+
+7. Set (set)
+Example: {1, 2, 3}, {"a", "b", "c"}
+
+8. Dictionary (dict):
+Example: {"name": "John", "age": 25}
+
+9. Range (range):
+Example: (1, 10)
